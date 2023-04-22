@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URI = "mysql+pymysql://root:Pyros*1998@localhost/test"
+DATABASE_URI = ""
 
 engine = create_engine(DATABASE_URI)
 
